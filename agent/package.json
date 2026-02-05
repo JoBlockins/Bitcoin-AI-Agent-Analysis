@@ -1,0 +1,14 @@
+{
+  "name": "bitcoin-analysis",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "agent": "node agent.mjs",
+    "report": "node report-trade.mjs"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "dotenv": "^16.4.7",
+    "puppeteer": "^24.2.1"
+  }
+}
